@@ -7,7 +7,7 @@ description: Stay hungry, Stay foolish.  # Strongly recommended for SEO & social
 
 # TIP ── For local development you can comment out `url`
 # and build with relative paths. In production you want this set.
-url: https://XXXXXXXX.com
+url: https://huier-git.github.io/
 
 # --------------------------------------------------
 #  AUTHOR / PROFILE DATA
@@ -17,7 +17,7 @@ owner:
   avatar: shouye.jpg
   # bio: Dream big, stay positive, work hard, and enjoy the journey.
   email: ye_minhui@outlook.com
-  cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
+  # cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
 
 
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
