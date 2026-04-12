@@ -49,28 +49,28 @@ lang: zh
 ## 项目经历 &nbsp; <a href="/cn/project/" style="font-size:0.85rem;font-weight:400;">查看详情 &rarr;</a>
 
 <div class="pub-card">
-  <p class="pub-title"><a href="/cn/project/">多杆接卸式星壤钻探机器人</a></p>
+  <p class="pub-title"><a href="/cn/project/#多杆接卸式星壤钻探机器人">多杆接卸式星壤钻探机器人</a></p>
   <p class="pub-authors"><span class="me">项目主持人</span> &middot; 硕士课题 &middot; 杰青项目 &middot; 2023.06 &ndash; 至今</p>
   <p class="pub-desc">9自由度深层星壤采样系统。控制与采集一体化平台（EtherCAT + Modbus，FSM流程管理）、Petri网协同调度、多分量耦合力载模型（预测偏差&plusmn;18%）、物理引导的地层介质在线辨识（F1 = 0.736，+16.7pp）。</p>
   <span class="pub-tag">样机</span> <span class="pub-tag">发明专利2项</span> <span class="pub-tag">SCI论文2篇</span> <span class="pub-tag">EI论文1篇</span>
 </div>
 
 <div class="pub-card">
-  <p class="pub-title"><a href="/cn/project/">真空低温钻具测温系统</a></p>
+  <p class="pub-title"><a href="/cn/project/#真空低温钻具测温系统">真空低温钻具测温系统</a></p>
   <p class="pub-authors"><span class="me">系统总设</span> &middot; 529厂委托 &middot; 2025.07 &ndash; 至今</p>
   <p class="pub-desc">&minus;190&nbsp;&deg;C 真空环境月球水冰钻测温系统全链路交付：10路微热电偶嵌入方案、STM32多通道温度巡检仪、跨平台采集软件（100 Hz、500万数据点）、热-结构耦合校核。</p>
   <span class="pub-tag">样机</span> <span class="pub-tag">发明专利1项</span> <span class="pub-tag">软著1项</span>
 </div>
 
 <div class="pub-card">
-  <p class="pub-title"><a href="/cn/project/">紧凑型 EtherCAT 伺服驱动器开发</a></p>
+  <p class="pub-title"><a href="/cn/project/#紧凑型-ethercat-伺服驱动器">紧凑型 EtherCAT 伺服驱动器开发</a></p>
   <p class="pub-authors"><span class="me">硬件与固件开发</span> &middot; 广东工业大学 &middot; 2024.09 &ndash; 至今</p>
   <p class="pub-desc">面向无刷电机的紧凑型伺服驱动器，实现FOC矢量控制算法、EtherCAT总线通信、力矩/速度/位置级联控制。基于STM32，支持钻探机器人执行器的实时多轴协同。</p>
   <span class="pub-tag">PCB设计</span> <span class="pub-tag">FOC</span> <span class="pub-tag">EtherCAT</span>
 </div>
 
 <div class="pub-card">
-  <p class="pub-title"><a href="/cn/project/">航天员便携折叠式手持钻机</a></p>
+  <p class="pub-title"><a href="/cn/project/#航天员便携折叠式手持钻机">航天员便携折叠式手持钻机</a></p>
   <p class="pub-authors"><span class="me">机械设计与驱动选型</span> &middot; 529厂委托 &middot; 2025.03 &ndash; 2025.06</p>
   <p class="pub-desc">面向航天员取芯作业的可折叠手持钻台。绳驱自动进给、三折式架体、电机/驱动选型（Maxon + Elmo）、仿真校核。</p>
   <span class="pub-tag">工程样机</span>

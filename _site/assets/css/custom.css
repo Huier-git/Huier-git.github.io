@@ -573,6 +573,26 @@ a:hover { color: var(--accent) !important; }
   letter-spacing: 0.02em;
 }
 
+/* Sidebar email (shown as text) */
+.sidebar-email {
+  text-indent: 0 !important;
+  margin-top: 1.2em !important;
+  font-family: var(--font-mono) !important;
+  font-size: 0.78rem !important;
+  word-break: break-all;
+  line-height: 1.5 !important;
+}
+
+.sidebar-email a {
+  color: var(--body) !important;
+  border-bottom: none !important;
+  transition: color 0.25s var(--ease);
+}
+
+.sidebar-email a:hover {
+  color: var(--accent) !important;
+}
+
 /* Sidebar Like button */
 .like-btn {
   display: inline-flex;

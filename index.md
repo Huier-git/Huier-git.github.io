@@ -46,28 +46,28 @@ My research focuses on **planetary drilling robotics**, spanning mechanism desig
 ## Projects &nbsp; <a href="/project/" style="font-size:0.85rem;font-weight:400;">View Details &rarr;</a>
 
 <div class="pub-card">
-  <p class="pub-title"><a href="/project/">Multi-Rod Planetary Regolith Drilling Robot</a></p>
+  <p class="pub-title"><a href="/project/#multi-rod-planetary-regolith-drilling-robot">Multi-Rod Planetary Regolith Drilling Robot</a></p>
   <p class="pub-authors"><span class="me">Project Lead</span> &middot; Master's Thesis &middot; NSFC Project &middot; 2023.06 &ndash; Present</p>
   <p class="pub-desc">9-DOF deep-regolith sampling system. Integrated control platform (EtherCAT + Modbus, FSM-based process management), Petri-net-based cooperative scheduling, multi-component coupled drilling-load model (&plusmn;18% prediction error), and physics-guided online formation identification (F1 = 0.736, +16.7pp over baseline).</p>
   <span class="pub-tag">Prototype</span> <span class="pub-tag">2 Patents</span> <span class="pub-tag">2 SCI Papers</span> <span class="pub-tag">1 EI Paper</span>
 </div>
 
 <div class="pub-card">
-  <p class="pub-title"><a href="/project/">Vacuum-Cryogenic Drill Temperature Monitoring System</a></p>
+  <p class="pub-title"><a href="/project/#vacuum-cryogenic-drill-temperature-monitoring-system">Vacuum-Cryogenic Drill Temperature Monitoring System</a></p>
   <p class="pub-authors"><span class="me">System Architect</span> &middot; Commissioned by Factory 529 &middot; 2025.07 &ndash; Present</p>
   <p class="pub-desc">Full delivery of a &minus;190&nbsp;&deg;C vacuum temperature monitoring solution for lunar water-ice drilling: 10-channel micro-thermocouple embedding, STM32-based multi-channel scanner, cross-platform acquisition software (100 Hz, 5M+ data points), and thermal-structural coupled verification.</p>
   <span class="pub-tag">Prototype</span> <span class="pub-tag">1 Patent</span> <span class="pub-tag">1 Software CR</span>
 </div>
 
 <div class="pub-card">
-  <p class="pub-title"><a href="/project/">Compact EtherCAT Servo Drive Development</a></p>
+  <p class="pub-title"><a href="/project/#compact-ethercat-servo-drive">Compact EtherCAT Servo Drive Development</a></p>
   <p class="pub-authors"><span class="me">Hardware & Firmware Developer</span> &middot; GDUT &middot; 2024.09 &ndash; Present</p>
   <p class="pub-desc">Compact servo drive for brushless motors with FOC algorithm, EtherCAT communication, and cascade control (torque / velocity / position). STM32-based, supporting real-time multi-axis coordination for drilling robot actuators.</p>
   <span class="pub-tag">PCB Design</span> <span class="pub-tag">FOC</span> <span class="pub-tag">EtherCAT</span>
 </div>
 
 <div class="pub-card">
-  <p class="pub-title"><a href="/project/">Portable Folding Hand-Held Drill for Astronaut Use</a></p>
+  <p class="pub-title"><a href="/project/#portable-folding-hand-held-drill-for-astronaut-use">Portable Folding Hand-Held Drill for Astronaut Use</a></p>
   <p class="pub-authors"><span class="me">Mechanical Design & Drive Selection</span> &middot; Commissioned by Factory 529 &middot; 2025.03 &ndash; 2025.06</p>
   <p class="pub-desc">Foldable hand-held drill stand for astronaut coring. Rope-drive auto-feed module, triple-fold frame, motor/drive selection (Maxon + Elmo), simulation-based verification.</p>
   <span class="pub-tag">Engineering Prototype</span>
