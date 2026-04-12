@@ -68,7 +68,7 @@ My research focuses on **planetary drilling robotics**, spanning mechanism desig
 
 <div class="pub-card">
   <p class="pub-title"><a href="/project/">Portable Folding Hand-Held Drill for Astronaut Use</a></p>
-  <p class="pub-authors"><span class="me">Mechanical Designer</span> &middot; Commissioned by Factory 529 &middot; 2025.03 &ndash; 2025.06</p>
+  <p class="pub-authors"><span class="me">Mechanical Design & Drive Selection</span> &middot; Commissioned by Factory 529 &middot; 2025.03 &ndash; 2025.06</p>
   <p class="pub-desc">Foldable hand-held drill stand for astronaut coring. Rope-drive auto-feed module, triple-fold frame, motor/drive selection (Maxon + Elmo), simulation-based verification.</p>
   <span class="pub-tag">Engineering Prototype</span>
 </div>

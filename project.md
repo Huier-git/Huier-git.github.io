@@ -113,7 +113,7 @@ A compact, high-performance servo drive for brushless motors, designed to serve 
 
 A foldable hand-held drill stand for astronaut coring operations, featuring automatic feed, compact triple-fold frame, and extreme-environment tolerance.
 
-- **Role** &mdash; Mechanical Designer
+- **Role** &mdash; Mechanical Design & Drive System Selection
 - **Client** &mdash; Beijing Institute of Satellite Manufacturing (Factory 529)
 - **Timeline** &mdash; 2025.03 &ndash; 2025.06
 - **Key work** &mdash; Rope-drive auto-feed module, triple-fold frame, motor/drive selection (Maxon + Elmo), simulation-based strength & stiffness verification

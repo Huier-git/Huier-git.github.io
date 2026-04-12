@@ -71,7 +71,7 @@ lang: zh
 
 <div class="pub-card">
   <p class="pub-title"><a href="/cn/project/">航天员便携折叠式手持钻机</a></p>
-  <p class="pub-authors"><span class="me">机械设计</span> &middot; 529厂委托 &middot; 2025.03 &ndash; 2025.06</p>
+  <p class="pub-authors"><span class="me">机械设计与驱动选型</span> &middot; 529厂委托 &middot; 2025.03 &ndash; 2025.06</p>
   <p class="pub-desc">面向航天员取芯作业的可折叠手持钻台。绳驱自动进给、三折式架体、电机/驱动选型（Maxon + Elmo）、仿真校核。</p>
   <span class="pub-tag">工程样机</span>
 </div>
