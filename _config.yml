@@ -14,9 +14,9 @@ url: https://yeminhui.xyz
 # --------------------------------------------------
 owner:
   name: Minhui Ye
-  avatar: shouye.jpg
+  avatar: avatar.png
   bio: Dream big, stay positive, work hard, and enjoy the journey.
-  email: ye_minhui@outlook.com
+  email: ye_minhui@foxmail.com
   cv: https://yeminhui.xyz/file/work-resume-lite-V1.pdf
 
 
@@ -46,15 +46,17 @@ owner:
 # --------------------------------------------------
 links:
   - title: About Me
+    title_cn: 关于我
     url: /
   - title: Projects
+    title_cn: 项目经历
     url: /project/
   - title: Publications
+    title_cn: 学术成果
     url: /publications/
   - title: Awards
+    title_cn: 荣誉奖项
     url: /awards/
-  - title: 中文
-    url: /cn/
 
 
 # --------------------------------------------------
@@ -94,8 +96,8 @@ kramdown:
 # --------------------------------------------------
 #  DISQUS COMMENT SYSTEM
 # --------------------------------------------------
-disqus:
-  shortname: lancecai
+# disqus:
+#   shortname:
 
 
 # include: [".htaccess"]
@@ -126,6 +128,6 @@ plugins:
   - jekyll-feed          # Auto-generate RSS feed
   - jekyll-sitemap       # Auto-generate sitemap.xml
   - jekyll-seo-tag       # Adds SEO meta tags & JSON-LD
-  - jekyll-stiemap
+# - jekyll-stiemap  # was a typo, already covered by jekyll-sitemap above
 #   - jekyll-picture-tag   # Responsive images & WebP/AVIF
   # - jekyll-archives      # Year/month archive pages

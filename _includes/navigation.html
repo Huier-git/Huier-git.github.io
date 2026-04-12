@@ -3,15 +3,40 @@
 		<a href="{{ site.url }}">{{ site.title }}</a>
 	</div><!-- /.site-name -->
   {% capture url %}{{ page.url | remove:'index.html' }}{% endcapture %}
+
+  <!-- Determine if current page is Chinese -->
+  {% assign is_cn = false %}
+  {% if page.url contains '/cn/' %}
+    {% assign is_cn = true %}
+  {% endif %}
+
 	<div class="top-navigation">
 		<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 		    <ul>
 		        {% for link in site.links %}
-            <li><a href="{{ site.url }}{{ link.url }}" {% if url == link.url %}class="top-navigation-current"{% endif %}>{{ link.title }}</a></li>
+		          {% unless link.title == "中文" %}
+		            {% if is_cn %}
+              <li><a href="{{ site.url }}/cn{{ link.url }}" {% if url contains link.url %}class="top-navigation-current"{% endif %}>{{ link.title_cn | default: link.title }}</a></li>
+		            {% else %}
+              <li><a href="{{ site.url }}{{ link.url }}" {% if url == link.url %}class="top-navigation-current"{% endif %}>{{ link.title }}</a></li>
+		            {% endif %}
+		          {% endunless %}
 		        {% endfor %}
+            <!-- Language toggle -->
+            <li class="lang-toggle">
+              {% if is_cn %}
+                {% assign en_url = page.url | replace: '/cn/', '/' %}
+                <a href="{{ site.url }}{{ en_url }}" title="Switch to English">EN</a>
+                <span class="lang-sep">/</span>
+                <a class="top-navigation-current" title="中文版">中</a>
+              {% else %}
+                {% assign cn_url = page.url | prepend: '/cn' %}
+                <a class="top-navigation-current" title="English">EN</a>
+                <span class="lang-sep">/</span>
+                <a href="{{ site.url }}{{ cn_url }}" title="切换中文">中</a>
+              {% endif %}
+            </li>
 		    </ul>
 		</nav>
 	</div><!-- /.top-navigation -->
 </div><!-- /.navigation-wrapper -->
-
-<!-- Lastly modified by Hanlin CAI in 2023/05/01 -->

@@ -1,12 +1,8 @@
 <img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="100" height="100"></a>
 
-<!-- <h4>{{ site.owner.name }}</h4> -->
-
 <p>{{ site.owner.bio }}</p>
 
 {% if site.owner.email %}<p style="text-indent:0;margin-top:1.5em;"><a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i> Email</a></p>{% endif %}
-
-{% if site.owner.cv %}<p style="text-indent:0;"><a href="{{ site.owner.cv }}"><img src="https://caihanlin.com/images/logo/icons8-cv-100.png" width="17" height="17"></i> My CV</a></p>{% endif %}
 
 {% if site.owner.twitter %}<p style="text-indent:0;"><a href="https://twitter.com/{{ site.owner.twitter }}"><i class="icon-twitter"></i> Twitter</a></p>{% endif %}
 
@@ -24,14 +20,10 @@
 
 {% if site.owner.tumblr %}<p style="text-indent:0;"><a href="https://{{ site.owner.tumblr }}.tumblr.com"><i class="icon-tumblr"></i> Tumblr</a></p>{% endif %}
 
-{% if site.owner.scholar%}<p style="text-indent:0;"><a href="{{ site.owner.scholar}}"><i class="ai ai-google-scholar-square"></i> Google Scholar</a></p>{% endif %}
+{% if site.owner.scholar %}<p style="text-indent:0;"><a href="{{ site.owner.scholar }}"><i class="ai ai-google-scholar-square"></i> Google Scholar</a></p>{% endif %}
 
-{% if site.owner.researchgate %}<p style="text-indent:0;"><a href="{{ site.owner.researchgate}}"><img src="https://caihanlin.com/images/logo/icons8-rg.png" width="13.2" height="13.2"></i> ResearchGate</a></p>{% endif %}
+{% if site.owner.researchgate %}<p style="text-indent:0;"><a href="{{ site.owner.researchgate }}"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-2px"><path d="M19.586 0c-1.326 0-2.4 1.074-2.4 2.4s1.074 2.4 2.4 2.4 2.4-1.074 2.4-2.4-1.074-2.4-2.4-2.4zm-5.902 9.4c.406 0 .782.098 1.126.292.344.194.612.464.804.808.192.344.288.73.288 1.156 0 .442-.102.838-.306 1.188-.204.35-.486.624-.846.822-.36.198-.766.296-1.218.296h-1.732v3.038h-1.8V9.4h3.684zm-.366 3.062c.324 0 .582-.096.774-.288.192-.192.288-.444.288-.756 0-.312-.096-.564-.288-.756-.192-.192-.45-.288-.774-.288h-1.518v2.088h1.518zM19.586 6c-.9 0-1.638.306-2.214.918-.576.612-.894 1.386-.954 2.322h1.8c.048-.468.198-.84.45-1.116.252-.276.57-.414.954-.414.384 0 .702.138.954.414.252.276.39.648.414 1.116h1.8c-.06-.936-.378-1.71-.954-2.322C21.26 6.306 20.486 6 19.586 6z"/></svg> ResearchGate</a></p>{% endif %}
 
-{% if site.owner.zhihu %}<p style="text-indent:0;"><a href="{{ site.owner.zhihu }}"><img src="https://caihanlin.com/images/logo/icons8-zhihu-96.png" width="16.8" height="16.8"></i> Zhihu</a></p>{% endif %}
+{% if site.owner.bilibili %}<p style="text-indent:0;"><a href="https://space.bilibili.com/{{ site.owner.bilibili }}"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-2px"><rect x="2" y="6" width="20" height="14" rx="3" ry="3"/><circle cx="8.5" cy="13" r="1.5" fill="white"/><circle cx="15.5" cy="13" r="1.5" fill="white"/></svg> Bilibili</a></p>{% endif %}
 
-{% if site.owner.xiaohongshu %}<p style="text-indent:0;"><a href="https://www.xiaohongshu.com/user/profile/{{site.owner.xiaohongshu}}"><img src="https://caihanlin.com/images/logo/xiaohongshu.png" width="14.6" height="14.6"></i> RedNote</a></p>{% endif %}
-
-{% if site.owner.bilibili %}<p style="text-indent:0;"><a href="https://space.bilibili.com/{{ site.owner.bilibili }}"><img src="https://caihanlin.com/images/logo/icons8-retro-tv-100.png" width="14.5" height="14.5"></i> Bilibili</a></p>{% endif %}
-
-<!-- Lastly modified by Hanlin CAI in 2023/10/15 -->
+{% if site.owner.cv %}<p style="text-indent:0;margin-top:1.5em;"><a href="{{ site.owner.cv }}" class="btn-cv">Download CV</a></p>{% endif %}
