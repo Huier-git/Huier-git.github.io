@@ -2,6 +2,7 @@
 layout: page
 permalink: /cn/project/index.html
 title: 项目经历
+lang: zh
 ---
 
 # 科研项目
@@ -44,11 +45,16 @@ title: 项目经历
 
 #### [真空低温钻具测温系统](#)
 
-<div class="img-row">
+<center>
 <img src="/images/projects/vacuum-cryogenic-drill.png" alt="集成热电偶的水冰钻样机">
+</center>
+<p class="img-caption">集成热电偶的水冰钻样机</p>
+
+<div class="img-row">
+<img src="/images/projects/thermocouple-install.png" alt="螺旋钻头热电偶嵌入">
 <img src="/images/projects/temp-scanner-board.png" alt="多通道温度巡检仪电路板">
 </div>
-<p class="img-caption">左：集成热电偶的水冰钻样机 &nbsp;&middot;&nbsp; 右：多通道温度巡检仪</p>
+<p class="img-caption">左：螺旋钻头热电偶嵌入 &nbsp;&middot;&nbsp; 右：多通道温度巡检仪</p>
 
 承接航天院所委托，完成&minus;190&nbsp;&deg;C 真空环境下月球水冰钻测温系统的**方案设计**、**硬件软件开发**与**机械改造全链路交付**。
 

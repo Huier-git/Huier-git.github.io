@@ -76,33 +76,72 @@
      5. CURSOR GLOW — subtle warm radial following mouse
      ============================================================ */
   if (window.innerWidth > 768) {
+    /* Three layers: glow (slow) → ring (medium) → dot (fast) */
     var glow = document.createElement('div');
     glow.className = 'cursor-glow';
+    var ring = document.createElement('div');
+    ring.className = 'cursor-ring';
+    var dot = document.createElement('div');
+    dot.className = 'cursor-dot';
     document.body.appendChild(glow);
+    document.body.appendChild(ring);
+    document.body.appendChild(dot);
 
     var mouseX = -500, mouseY = -500;
     var glowX = -500, glowY = -500;
+    var ringX = -500, ringY = -500;
+    var dotX = -500, dotY = -500;
 
     document.addEventListener('mousemove', function(e) {
       mouseX = e.clientX;
       mouseY = e.clientY;
       if (!glow.classList.contains('active')) {
         glow.classList.add('active');
+        ring.classList.add('active');
+        dot.classList.add('active');
       }
     }, { passive: true });
 
     document.addEventListener('mouseleave', function() {
       glow.classList.remove('active');
+      ring.classList.remove('active');
+      dot.classList.remove('active');
     });
 
-    function animateGlow() {
-      glowX += (mouseX - glowX) * 0.1;
-      glowY += (mouseY - glowY) * 0.1;
+    /* Expand ring when hovering interactive elements */
+    document.addEventListener('mouseover', function(e) {
+      if (e.target.closest('a, button, .pub-card, .award-card, .project-card, .stat-item, .news-item')) {
+        ring.classList.add('hovering');
+        dot.classList.add('hovering');
+      }
+    }, { passive: true });
+
+    document.addEventListener('mouseout', function(e) {
+      if (e.target.closest('a, button, .pub-card, .award-card, .project-card, .stat-item, .news-item')) {
+        ring.classList.remove('hovering');
+        dot.classList.remove('hovering');
+      }
+    }, { passive: true });
+
+    function animateCursor() {
+      /* Each layer follows at different speed = parallax trailing */
+      glowX += (mouseX - glowX) * 0.06;
+      glowY += (mouseY - glowY) * 0.06;
+      ringX += (mouseX - ringX) * 0.15;
+      ringY += (mouseY - ringY) * 0.15;
+      dotX += (mouseX - dotX) * 0.35;
+      dotY += (mouseY - dotY) * 0.35;
+
       glow.style.left = glowX + 'px';
       glow.style.top = glowY + 'px';
-      requestAnimationFrame(animateGlow);
+      ring.style.left = ringX + 'px';
+      ring.style.top = ringY + 'px';
+      dot.style.left = dotX + 'px';
+      dot.style.top = dotY + 'px';
+
+      requestAnimationFrame(animateCursor);
     }
-    animateGlow();
+    animateCursor();
   }
 
   /* ============================================================
@@ -223,6 +262,20 @@
       '</svg>',
       '70%', null, '1.5%', null, 0.11
     );
+  }
+
+  /* ============================================================
+     7. LIKE BUTTON — toggle only
+     ============================================================ */
+  var likeBtn = document.getElementById('likeBtn');
+  if (likeBtn) {
+    if (localStorage.getItem('yeminhui_liked') === 'true') {
+      likeBtn.classList.add('liked');
+    }
+    likeBtn.addEventListener('click', function() {
+      likeBtn.classList.toggle('liked');
+      localStorage.setItem('yeminhui_liked', likeBtn.classList.contains('liked'));
+    });
   }
 
 })();

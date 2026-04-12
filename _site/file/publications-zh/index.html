@@ -1,11 +1,5 @@
-<!-- Lastly modified by Hanlin CAI in 2023/04/26 -->
-<!-- It is not recommended to modify this code, unless you are a Pro-->
-
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<html class="no-js" lang="en">
 
 <head>
 <!-- It is not recommended to modify this code, unless you are a Pro-->
@@ -19,14 +13,14 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Publications-zh &#8211; Minhui Ye">
 <meta property="og:description" content="">
-<meta property="og:url" content="https://huier-git.github.io//file/publications-zh/index.html">
+<meta property="og:url" content="http://localhost:4000/file/publications-zh/index.html">
 <meta property="og:site_name" content="Minhui Ye">
 
 
 
 
 
-<link rel="canonical" href="https://huier-git.github.io//file/publications-zh/">
+<link rel="canonical" href="http://localhost:4000/file/publications-zh/">
 
 
 
@@ -36,13 +30,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<!-- Google Webfonts -->
+<!-- Google Webfonts — clean sans-serif inspired by Anthropic's aesthetic -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- Legacy fonts for fallback -->
 <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/custom.css">
 
 <!--[if (lt IE 9) & (!IEMobile)]>
 <link rel="stylesheet" href="/assets/css/ie.css">
@@ -54,32 +53,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" crossorigin="anonymous"></script>
 
 <!-- 16x16 -->
-<link rel="shortcut icon" href="https://huier-git.github.io//images/fav.ico">
+<link rel="shortcut icon" href="http://localhost:4000/images/fav.ico">
 <!-- 32x32 -->
-<link rel="shortcut icon" href="https://huier-git.github.io//images/fav.png">
+<link rel="shortcut icon" href="http://localhost:4000/images/fav.png">
 <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="https://huier-git.github.io//images/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
 <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://huier-git.github.io//images/fav.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/fav.png">
 <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://huier-git.github.io//images/fav.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/fav.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://huier-git.github.io//images/fav.png">
-
-<script src="https://cdn.counter.dev/script.js" data-id="4c8f7caa-2b55-46cd-a995-2c4633303773" data-utcoffset="8"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-T5N5JY1E21');
-</script>
-
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/fav.png">
 </head>
-
 
 <body class="page" itemscope itemtype="http://schema.org/WebPage">
 
@@ -88,45 +73,71 @@
 <!-- It is not recommended to modify this code, unless you are a Pro-->
 <!-- Lastly modified by Hanlin CAI in 2023/01/15 -->
 
-<div class="navigation-wrapper">
+<div class="page-shell">
+
+  <div class="navigation-wrapper">
 	<div class="site-name">
-		<a href="https://huier-git.github.io/">Minhui Ye</a>
+		<a href="http://localhost:4000">Minhui Ye</a>
 	</div><!-- /.site-name -->
   
+
+  <!-- Determine if current page is Chinese -->
+  
+  
+
 	<div class="top-navigation">
 		<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 		    <ul>
 		        
-            <li><a href="https://huier-git.github.io//" >About Me</a></li>
+		          
+		            
+              <li><a href="http://localhost:4000/" >About Me</a></li>
+		            
+		          
 		        
-            <li><a href="https://huier-git.github.io//project/" >Projects</a></li>
+		          
+		            
+              <li><a href="http://localhost:4000/project/" >Projects</a></li>
+		            
+		          
 		        
-            <li><a href="https://huier-git.github.io//publications/" >Publications</a></li>
+		          
+		            
+              <li><a href="http://localhost:4000/publications/" >Publications</a></li>
+		            
+		          
 		        
-            <li><a href="https://huier-git.github.io//awards/" >Awards</a></li>
+		          
+		            
+              <li><a href="http://localhost:4000/awards/" >Awards</a></li>
+		            
+		          
 		        
-            <li><a href="https://huier-git.github.io//cn/" >中文</a></li>
-		        
+            <!-- Language toggle -->
+            <li class="lang-toggle">
+              
+                
+                <a class="top-navigation-current" title="English">EN</a>
+                <span class="lang-sep">/</span>
+                <a href="http://localhost:4000/cn/file/publications-zh/index.html" title="切换中文">中</a>
+              
+            </li>
 		    </ul>
 		</nav>
 	</div><!-- /.top-navigation -->
 </div><!-- /.navigation-wrapper -->
 
-<!-- Lastly modified by Hanlin CAI in 2023/05/01 -->
 
+  <div class="page-card">
+    <aside class="sidebar" role="complementary">
+      <img src="http://localhost:4000/images/avatar.png" class="bio-photo" alt="Minhui Ye bio photo" width="100" height="100"></a>
 
+<p class="sidebar-name">Minhui Ye</p>
+<p class="sidebar-title">M.Eng. Student</p>
+<p class="sidebar-affiliation">Guangdong University of Technology</p>
+<p class="sidebar-status">Open to Work</p>
 
-<div id="main" role="main"  itemprop="mainContentOfPage">
-  <div class="article-author-top">
-    <img src="https://huier-git.github.io//images/shouye.jpg" class="bio-photo" alt="Minhui Ye bio photo" width="100" height="100"></a>
-
-<!-- <h4>Minhui Ye</h4> -->
-
-<p></p>
-
-<p style="text-indent:0;margin-top:1.5em;"><a href="mailto:ye_minhui@outlook.com" target="_blank"><i class="icon-mail"></i> Email</a></p>
-
-
+<p style="text-indent:0;margin-top:1.5em;"><a href="mailto:ye_minhui@foxmail.com" target="_blank"><i class="icon-mail"></i> Email</a></p>
 
 
 
@@ -146,58 +157,328 @@
 
 
 
-<p style="text-indent:0;"><a href="https://www.researchgate.net/profile/Minhui-Ye"><img src="https://caihanlin.com/images/logo/icons8-rg.png" width="13.2" height="13.2"></i> ResearchGate</a></p>
+<p style="text-indent:0;"><a href="https://www.researchgate.net/profile/Minhui-Ye"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-2px"><path d="M19.586 0c-1.326 0-2.4 1.074-2.4 2.4s1.074 2.4 2.4 2.4 2.4-1.074 2.4-2.4-1.074-2.4-2.4-2.4zm-5.902 9.4c.406 0 .782.098 1.126.292.344.194.612.464.804.808.192.344.288.73.288 1.156 0 .442-.102.838-.306 1.188-.204.35-.486.624-.846.822-.36.198-.766.296-1.218.296h-1.732v3.038h-1.8V9.4h3.684zm-.366 3.062c.324 0 .582-.096.774-.288.192-.192.288-.444.288-.756 0-.312-.096-.564-.288-.756-.192-.192-.45-.288-.774-.288h-1.518v2.088h1.518zM19.586 6c-.9 0-1.638.306-2.214.918-.576.612-.894 1.386-.954 2.322h1.8c.048-.468.198-.84.45-1.116.252-.276.57-.414.954-.414.384 0 .702.138.954.414.252.276.39.648.414 1.116h1.8c-.06-.936-.378-1.71-.954-2.322C21.26 6.306 20.486 6 19.586 6z"/></svg> ResearchGate</a></p>
 
 
 
+<p style="text-indent:0;margin-top:1.5em;"><a href="https://yeminhui.xyz/file/work-resume-lite-V1.pdf" class="btn-cv">Download CV</a></p>
 
+<button class="like-btn" id="likeBtn">
+  <svg class="like-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+  <span>Like</span>
+</button>
 
+    </aside>
 
+    <main id="main" role="main" itemprop="mainContentOfPage">
+      <article itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="article-wrap" itemprop="text">
+          
 
-<!-- Lastly modified by Hanlin CAI in 2023/10/15 -->
-  </div>
-  <article itemscope itemtype="http://schema.org/CreativeWork">
-  
-    <div class="article-wrap" itemprop="text">
-      
+        </div>
+      </article>
+    </main>
+  </div><!-- /.page-card -->
 
-    </div><!-- /.article-wrap -->
-  </article>
-</div><!-- /#index -->
+</div><!-- /.page-shell -->
 
 <div class="footer-wrap">
   <footer>
-    <h6>&copy; 2025 Minhui Ye.
+    <h6>
+  Last updated: April 2026<br>
+  &copy; 2026 Minhui Ye.
   Published with <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a>,
-  powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>,
-  based on the <a href="https://mademistakes.com/" rel="nofollow">Minimal Mistakes</a> theme.
-  Source code for this website can be found <a href="https://github.com/Huier-git/Huier-git.github.io" rel="nofollow">here</a>.
-
-  <!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=tGZ_4852x6Mm-PPomoo98e4y_CI8D9TmioGTO03Daik"></script> -->
-  
+  powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
 </h6>
 
 
 <!-- Lastly modified by Hanlin CAI in 2023/03/16 -->
   </footer>
-</div><!-- /.footer-wrap -->
+</div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="https://huier-git.github.io//assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="https://huier-git.github.io//assets/js/main.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/main.min.js"></script>
+
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function() {
+  'use strict';
 
-  ga('create', 'G-T5N5JY1E21', 'caihanlin.com');
-  ga('send', 'pageview');
+  /* ============================================================
+     1. STICKY NAV — shrink on scroll
+     ============================================================ */
+  var nav = document.querySelector('.navigation-wrapper');
+  if (nav) {
+    window.addEventListener('scroll', function() {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+  }
 
+  /* ============================================================
+     2. SCROLL-TRIGGERED REVEAL
+     ============================================================ */
+  var revealTargets = document.querySelectorAll(
+    '.article-wrap h1, .article-wrap h2, .article-wrap h4, ' +
+    '.article-wrap center, .article-wrap blockquote, .article-wrap hr, ' +
+    '.article-wrap ol, .article-wrap > p, .article-wrap > ul, ' +
+    '.article-wrap .img-row, .article-wrap .stats-row, .article-wrap .contact-box'
+  );
+
+  revealTargets.forEach(function(el) { el.classList.add('reveal'); });
+
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+    revealTargets.forEach(function(el) { observer.observe(el); });
+  } else {
+    revealTargets.forEach(function(el) { el.classList.add('visible'); });
+  }
+
+  /* ============================================================
+     3. READING PROGRESS BAR
+     ============================================================ */
+  var bar = document.createElement('div');
+  bar.className = 'reading-progress';
+  document.body.appendChild(bar);
+
+  window.addEventListener('scroll', function() {
+    var scrollTop = window.scrollY;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    bar.style.width = (docHeight > 0 ? (scrollTop / docHeight) * 100 : 0) + '%';
+  }, { passive: true });
+
+  /* ============================================================
+     4. BACK TO TOP BUTTON
+     ============================================================ */
+  var btn = document.createElement('button');
+  btn.className = 'back-to-top';
+  btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>';
+  btn.setAttribute('aria-label', 'Back to top');
+  document.body.appendChild(btn);
+
+  window.addEventListener('scroll', function() {
+    btn.classList.toggle('show', window.scrollY > 400);
+  }, { passive: true });
+
+  btn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  /* ============================================================
+     5. CURSOR GLOW — subtle warm radial following mouse
+     ============================================================ */
+  if (window.innerWidth > 768) {
+    /* Three layers: glow (slow) → ring (medium) → dot (fast) */
+    var glow = document.createElement('div');
+    glow.className = 'cursor-glow';
+    var ring = document.createElement('div');
+    ring.className = 'cursor-ring';
+    var dot = document.createElement('div');
+    dot.className = 'cursor-dot';
+    document.body.appendChild(glow);
+    document.body.appendChild(ring);
+    document.body.appendChild(dot);
+
+    var mouseX = -500, mouseY = -500;
+    var glowX = -500, glowY = -500;
+    var ringX = -500, ringY = -500;
+    var dotX = -500, dotY = -500;
+
+    document.addEventListener('mousemove', function(e) {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      if (!glow.classList.contains('active')) {
+        glow.classList.add('active');
+        ring.classList.add('active');
+        dot.classList.add('active');
+      }
+    }, { passive: true });
+
+    document.addEventListener('mouseleave', function() {
+      glow.classList.remove('active');
+      ring.classList.remove('active');
+      dot.classList.remove('active');
+    });
+
+    /* Expand ring when hovering interactive elements */
+    document.addEventListener('mouseover', function(e) {
+      if (e.target.closest('a, button, .pub-card, .award-card, .project-card, .stat-item, .news-item')) {
+        ring.classList.add('hovering');
+        dot.classList.add('hovering');
+      }
+    }, { passive: true });
+
+    document.addEventListener('mouseout', function(e) {
+      if (e.target.closest('a, button, .pub-card, .award-card, .project-card, .stat-item, .news-item')) {
+        ring.classList.remove('hovering');
+        dot.classList.remove('hovering');
+      }
+    }, { passive: true });
+
+    function animateCursor() {
+      /* Each layer follows at different speed = parallax trailing */
+      glowX += (mouseX - glowX) * 0.06;
+      glowY += (mouseY - glowY) * 0.06;
+      ringX += (mouseX - ringX) * 0.15;
+      ringY += (mouseY - ringY) * 0.15;
+      dotX += (mouseX - dotX) * 0.35;
+      dotY += (mouseY - dotY) * 0.35;
+
+      glow.style.left = glowX + 'px';
+      glow.style.top = glowY + 'px';
+      ring.style.left = ringX + 'px';
+      ring.style.top = ringY + 'px';
+      dot.style.left = dotX + 'px';
+      dot.style.top = dotY + 'px';
+
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+  }
+
+  /* ============================================================
+     6. GEOMETRIC DECORATIONS — Complex SVG patterns
+     ============================================================ */
+  if (window.innerWidth > 900) {
+    var c = '#c0825a';
+    var svgNS = 'http://www.w3.org/2000/svg';
+
+    function placeSVG(svg, top, left, right, bottom, opacity) {
+      var wrap = document.createElement('div');
+      wrap.style.cssText = 'position:fixed;pointer-events:none;z-index:0;opacity:' + opacity + ';';
+      if (top) wrap.style.top = top;
+      if (left) wrap.style.left = left;
+      if (right) wrap.style.right = right;
+      if (bottom) wrap.style.bottom = bottom;
+      wrap.innerHTML = svg;
+      document.body.appendChild(wrap);
+    }
+
+    /* ① Top-left: node network (connected dots) */
+    placeSVG(
+      '<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+        '<circle cx="15" cy="15" r="3" fill="' + c + '"/>' +
+        '<circle cx="45" cy="10" r="2.5" fill="' + c + '"/>' +
+        '<circle cx="75" cy="20" r="3" fill="' + c + '"/>' +
+        '<circle cx="30" cy="45" r="4" fill="' + c + '"/>' +
+        '<circle cx="65" cy="50" r="2" fill="' + c + '"/>' +
+        '<circle cx="20" cy="75" r="2.5" fill="' + c + '"/>' +
+        '<circle cx="55" cy="80" r="3" fill="' + c + '"/>' +
+        '<line x1="15" y1="15" x2="45" y2="10" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="45" y1="10" x2="75" y2="20" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="15" y1="15" x2="30" y2="45" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="45" y1="10" x2="30" y2="45" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="75" y1="20" x2="65" y2="50" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="30" y1="45" x2="65" y2="50" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="30" y1="45" x2="20" y2="75" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="65" y1="50" x2="55" y2="80" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="20" y1="75" x2="55" y2="80" stroke="' + c + '" stroke-width="1"/>' +
+      '</svg>',
+      '18%', '1.5%', null, null, 0.16
+    );
+
+    /* ② Right side: starburst / radial */
+    placeSVG(
+      '<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+        '<circle cx="35" cy="35" r="3" fill="' + c + '"/>' +
+        '<line x1="35" y1="35" x2="35" y2="5" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="35" y1="35" x2="56" y2="10" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="35" y1="35" x2="65" y2="25" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="35" y1="35" x2="65" y2="45" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="35" y1="35" x2="56" y2="60" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="35" y1="35" x2="35" y2="65" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="35" y1="35" x2="14" y2="60" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="35" y1="35" x2="5" y2="45" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="35" y1="35" x2="5" y2="25" stroke="' + c + '" stroke-width="1"/>' +
+        '<line x1="35" y1="35" x2="14" y2="10" stroke="' + c + '" stroke-width="1"/>' +
+        '<circle cx="35" cy="5" r="2" fill="' + c + '"/>' +
+        '<circle cx="65" cy="25" r="2" fill="' + c + '"/>' +
+        '<circle cx="65" cy="45" r="2" fill="' + c + '"/>' +
+        '<circle cx="35" cy="65" r="2" fill="' + c + '"/>' +
+        '<circle cx="5" cy="45" r="2" fill="' + c + '"/>' +
+        '<circle cx="5" cy="25" r="2" fill="' + c + '"/>' +
+      '</svg>',
+      '42%', null, '1.5%', null, 0.13
+    );
+
+    /* ③ Left middle: concentric arcs */
+    placeSVG(
+      '<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+        '<path d="M30 55 A25 25 0 0 1 5 30" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<path d="M30 48 A18 18 0 0 1 12 30" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<path d="M30 41 A11 11 0 0 1 19 30" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<circle cx="30" cy="30" r="2" fill="' + c + '"/>' +
+      '</svg>',
+      '55%', '1.8%', null, null, 0.15
+    );
+
+    /* ④ Bottom-right: wavy fingerprint lines */
+    placeSVG(
+      '<svg width="65" height="50" viewBox="0 0 65 50" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+        '<path d="M5 10 Q20 5, 35 10 Q50 15, 60 10" stroke="' + c + '" stroke-width="1.2" fill="none"/>' +
+        '<path d="M5 20 Q20 15, 35 20 Q50 25, 60 20" stroke="' + c + '" stroke-width="1.2" fill="none"/>' +
+        '<path d="M5 30 Q20 25, 35 30 Q50 35, 60 30" stroke="' + c + '" stroke-width="1.2" fill="none"/>' +
+        '<path d="M5 40 Q20 35, 35 40 Q50 45, 60 40" stroke="' + c + '" stroke-width="1.2" fill="none"/>' +
+      '</svg>',
+      null, null, '2%', '18%', 0.12
+    );
+
+    /* ⑤ Top-right area: clover / four-leaf */
+    placeSVG(
+      '<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+        '<circle cx="20" cy="12" r="8" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<circle cx="20" cy="28" r="8" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<circle cx="12" cy="20" r="8" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<circle cx="28" cy="20" r="8" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<circle cx="20" cy="20" r="2" fill="' + c + '"/>' +
+      '</svg>',
+      '28%', null, '2.5%', null, 0.1
+    );
+
+    /* ⑥ Left bottom: three triangles */
+    placeSVG(
+      '<svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+        '<polygon points="25,5 5,40 45,40" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<polygon points="25,15 12,35 38,35" stroke="' + c + '" stroke-width="1.2" fill="none"/>' +
+        '<polygon points="25,23 18,32 32,32" stroke="' + c + '" stroke-width="1" fill="none"/>' +
+      '</svg>',
+      null, '2%', null, '35%', 0.13
+    );
+
+    /* ⑦ Mid-right: hourglass / bowtie */
+    placeSVG(
+      '<svg width="35" height="50" viewBox="0 0 35 50" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+        '<polygon points="5,5 30,5 17.5,25" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<polygon points="5,45 30,45 17.5,25" stroke="' + c + '" stroke-width="1.5" fill="none"/>' +
+        '<circle cx="17.5" cy="25" r="2.5" fill="' + c + '"/>' +
+      '</svg>',
+      '70%', null, '1.5%', null, 0.11
+    );
+  }
+
+  /* ============================================================
+     7. LIKE BUTTON — toggle only
+     ============================================================ */
+  var likeBtn = document.getElementById('likeBtn');
+  if (likeBtn) {
+    if (localStorage.getItem('yeminhui_liked') === 'true') {
+      likeBtn.classList.add('liked');
+    }
+    likeBtn.addEventListener('click', function() {
+      likeBtn.classList.toggle('liked');
+      localStorage.setItem('yeminhui_liked', likeBtn.classList.contains('liked'));
+    });
+  }
+
+})();
 </script>
 
-<!-- https://analytics.google.com/analytics/ -->
-<!-- Lastly modified by Hanlin CAI in 2023/01/15 -->
 
 </body>
 </html>

@@ -2,6 +2,7 @@
 layout: page
 permalink: /cn/publications/index.html
 title: 学术成果
+lang: zh
 ---
 
 ## 期刊论文

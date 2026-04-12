@@ -9,7 +9,7 @@ title: Awards
 <div class="award-card">
   <span class="award-year">2025</span>
   <div class="award-body">
-    <p class="award-title">National Scholarship for Graduate Students <span class="award-tag">Top 0.2%</span></p>
+    <p class="award-title">🏆 National Scholarship for Graduate Students <span class="award-tag">Top 0.2%</span></p>
     <p class="award-detail">The highest honor awarded to Chinese graduate students, based on academic excellence and research impact.</p>
   </div>
 </div>
@@ -65,7 +65,7 @@ title: Awards
 <div class="award-card">
   <span class="award-year">2025</span>
   <div class="award-body">
-    <p class="award-title">China Graduate Electronics Design Competition <span class="award-tag">First Prize</span></p>
+    <p class="award-title">🏆 China Graduate Electronics Design Competition <span class="award-tag">First Prize</span></p>
     <p class="award-detail">South China Division &middot; Team Lead (1/2)</p>
   </div>
 </div>

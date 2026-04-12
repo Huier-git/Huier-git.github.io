@@ -44,11 +44,16 @@ A deep-regolith sampling system for lunar exploration. Independently completed f
 
 #### [Vacuum-Cryogenic Drill Temperature Monitoring System](#)
 
+<center>
+<img src="/images/projects/vacuum-cryogenic-drill.png" alt="Instrumented ice-drill prototype">
+</center>
+<p class="img-caption">Instrumented ice-drill prototype with thermocouple wiring</p>
+
 <div class="img-row">
-<img src="/images/projects/vacuum-cryogenic-drill.png" alt="Instrumented ice-drill prototype with thermocouple wiring">
+<img src="/images/projects/thermocouple-install.png" alt="Thermocouple embedding on spiral drill bit">
 <img src="/images/projects/temp-scanner-board.png" alt="Multi-channel temperature scanner PCB">
 </div>
-<p class="img-caption">Left: Instrumented ice-drill prototype &nbsp;&middot;&nbsp; Right: Multi-channel temperature scanner board</p>
+<p class="img-caption">Left: Thermocouple embedding on spiral drill bit &nbsp;&middot;&nbsp; Right: Multi-channel temperature scanner board</p>
 
 Commissioned by Beijing Institute of Satellite Manufacturing (Factory 529). Delivered a full temperature monitoring solution for lunar water-ice drilling at &minus;190&nbsp;&deg;C under vacuum &mdash; covering system design, hardware/software development, and mechanical integration.
 

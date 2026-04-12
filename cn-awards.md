@@ -2,6 +2,7 @@
 layout: page
 permalink: /cn/awards/index.html
 title: 荣誉奖项
+lang: zh
 ---
 
 ## 奖学金
@@ -9,7 +10,7 @@ title: 荣誉奖项
 <div class="award-card">
   <span class="award-year">2025</span>
   <div class="award-body">
-    <p class="award-title">硕士研究生国家奖学金 <span class="award-tag">0.2%</span></p>
+    <p class="award-title">🏆 硕士研究生国家奖学金 <span class="award-tag">0.2%</span></p>
     <p class="award-detail">中国研究生最高荣誉，基于学术成绩与科研成果综合评定。</p>
   </div>
 </div>
@@ -65,7 +66,7 @@ title: 荣誉奖项
 <div class="award-card">
   <span class="award-year">2025</span>
   <div class="award-body">
-    <p class="award-title">中国研究生电子设计竞赛 <span class="award-tag">一等奖</span></p>
+    <p class="award-title">🏆 中国研究生电子设计竞赛 <span class="award-tag">一等奖</span></p>
     <p class="award-detail">华南赛区 · 队长（1/2）</p>
   </div>
 </div>

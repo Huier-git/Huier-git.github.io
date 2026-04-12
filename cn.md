@@ -2,17 +2,27 @@
 layout: page
 permalink: /cn/index.html
 title: 主页
+lang: zh
 ---
 
 ## 关于我
 
 <img src="/images/shouye2.png" class="floatpic">
 
-你好，感谢来访。我是**叶旻辉**，2001年生，广东珠海人。
+你好，感谢来访。我是**叶旻辉**。
 
 我在[广东工业大学](https://www.gdut.edu.cn/)"[仿生与智能机器人实验室](https://jdgcxy.gdut.edu.cn/#/index)"攻读硕士学位，师从[管贻生教授](https://jdgcxy.gdut.edu.cn/#/index)与[张涛教授](https://www.me.buaa.edu.cn/info/1071/7997.htm)（[北航](https://www.buaa.edu.cn/)），预计2026年6月毕业。
 
 研究方向为**星壤钻探机器人**，工作覆盖机构设计、实时嵌入式控制、运动规划与深度学习。主持研发了**9自由度多杆接卸式钻探机器人**，并为航天院所交付了**&minus;190&nbsp;&deg;C 真空钻具测温系统**。
+
+<div style="clear:both;"></div>
+
+<div class="intent-box">
+  <p class="intent-label">求职意向 &middot; 2026年7月可入职</p>
+  <p class="intent-text"><strong>航天与特种装备</strong> &mdash; 航天器机构、空间机器人、极端环境测控系统</p>
+  <p class="intent-text"><strong>工业自动化与运动控制</strong> &mdash; 伺服驱动、总线通信、多轴协同、非标产线</p>
+  <p class="intent-text"><strong>机器人与具身智能</strong> &mdash; 机器人系统集成、软硬件联调、控制算法开发</p>
+</div>
 
 <div class="stats-row" markdown="1">
 
@@ -70,12 +80,14 @@ title: 主页
 
 ## 最近动态
 
-- **2025** &mdash; 在[北京卫星制造厂（529厂）](http://www.spacechina.com/)完成研发实习，参与空间钻采与低温测控系统开发
-- **2025** &mdash; 获得硕士研究生**国家奖学金** &mdash; 研究生最高荣誉（全校比例：0.2%）
-- **2025** &mdash; [中国研究生电子设计竞赛](https://cpipc.acge.org.cn/) · 华南赛区**一等奖**（队长）
-- **2025.01** &mdash; 多杆钻探机器人论文被 [*Advances in Space Research*](https://www.sciencedirect.com/journal/advances-in-space-research) 录用（SCI Q2）
-- **2024** &mdash; 海底采样机器人综述论文发表于 [*Journal of Field Robotics*](https://onlinelibrary.wiley.com/journal/15564967)（SCI Q2）
-- **2024.08** &mdash; 在 [IEEE ICIEA 2024](https://www.ieeeiciea.org/)（挪威 Kristiansand）做口头报告
+<div class="news-list">
+<div class="news-item"><span class="news-date">2025</span><span class="news-text">在<a href="http://www.spacechina.com/">北京卫星制造厂（529厂）</a>完成研发实习，参与空间钻采与低温测控系统开发</span></div>
+<div class="news-item"><span class="news-date">2025</span><span class="news-text">获得硕士研究生<strong>国家奖学金</strong> &mdash; 研究生最高荣誉（全校比例：0.2%）</span></div>
+<div class="news-item"><span class="news-date">2025</span><span class="news-text"><a href="https://cpipc.acge.org.cn/">中国研究生电子设计竞赛</a> · 华南赛区<strong>一等奖</strong>（队长）</span></div>
+<div class="news-item"><span class="news-date">2025.01</span><span class="news-text">多杆钻探机器人论文被 <a href="https://www.sciencedirect.com/journal/advances-in-space-research"><em>Advances in Space Research</em></a> 录用（SCI Q2）</span></div>
+<div class="news-item"><span class="news-date">2024</span><span class="news-text">海底采样机器人综述论文发表于 <a href="https://onlinelibrary.wiley.com/journal/15564967"><em>Journal of Field Robotics</em></a>（SCI Q2）</span></div>
+<div class="news-item"><span class="news-date">2024.08</span><span class="news-text">在 <a href="https://www.ieeeiciea.org/">IEEE ICIEA 2024</a>（挪威 Kristiansand）做口头报告</span></div>
+</div>
 
 ---
 
@@ -101,20 +113,24 @@ title: 主页
 
 ## 研究方向
 
-- **星壤钻探机器人** &mdash; 多杆深层采样、运动序列优化、机土相互作用建模
-- **机器人控制与通信** &mdash; EtherCAT / Modbus 实时架构、基于FSM的流程控制
-- **面向机器人的深度学习** &mdash; 物理引导的时序分类、跨域迁移学习
-- **热建模与仿真** &mdash; 极端环境下的热-结构耦合分析
+<div class="news-list">
+<div class="news-item"><span class="news-date" style="min-width:6em;">钻探机器人</span><span class="news-text">多杆深层采样、运动序列优化、机土相互作用建模</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">控制与通信</span><span class="news-text">EtherCAT / Modbus 实时架构、基于FSM的流程控制</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">深度学习</span><span class="news-text">物理引导的时序分类、跨域迁移学习</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">热建模</span><span class="news-text">极端环境下的热-结构耦合分析</span></div>
+</div>
 
 ---
 
 ## 专业技能
 
-- **智能算法** &mdash; PyTorch、深度学习、约束规划（[OR-Tools](https://developers.google.com/optimization) / CP-SAT）、组合优化、Optuna
-- **软件开发** &mdash; Qt / C++ 上位机、Python、MATLAB、Modbus / EtherCAT / TCP、RTOS、SQLite
-- **硬件开发** &mdash; STM32、PCB Layout（[立创EDA](https://lceda.cn/)）、I2C / UART / SPI / RS-485 / CAN、FOC电机控制
-- **机械设计** &mdash; [SolidWorks](https://www.solidworks.com/)（含Simulation）、AutoCAD、电机与器件选型
-- **工具链** &mdash; [Claude Code](https://claude.ai/)、[Cursor](https://cursor.sh/)、LaTeX、Git、Illustrator
+<div class="news-list">
+<div class="news-item"><span class="news-date" style="min-width:6em;">智能算法</span><span class="news-text">PyTorch、深度学习、约束规划（<a href="https://developers.google.com/optimization">OR-Tools</a> / CP-SAT）、Optuna</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">软件开发</span><span class="news-text">Qt / C++ 上位机、Python、MATLAB、Modbus / EtherCAT / TCP、RTOS、SQLite</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">硬件开发</span><span class="news-text">STM32、PCB Layout（<a href="https://lceda.cn/">立创EDA</a>）、I2C / UART / SPI / RS-485 / CAN、FOC电机控制</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">机械设计</span><span class="news-text"><a href="https://www.solidworks.com/">SolidWorks</a>（含Simulation）、AutoCAD、电机与器件选型</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">工具链</span><span class="news-text"><a href="https://claude.ai/">Claude Code</a>、<a href="https://cursor.sh/">Cursor</a>、LaTeX、Git、Illustrator</span></div>
+</div>
 
 ---
 
@@ -124,7 +140,7 @@ title: 主页
 
 欢迎就科研合作、工程机会、机器人与空间探索等话题与我交流。
 
-<a href="mailto:ye_minhui@foxmail.com" class="btn">发送邮件</a>
+<a href="mailto:ye_minhui@foxmail.com?subject=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E5%9C%A8%E6%82%A8%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E7%9C%8B%E5%88%B0%E4%BA%86%E6%82%A8%E7%9A%84%E7%AE%80%E5%8E%86&body=%E5%8F%B6%E6%97%BB%E8%BE%89%E5%90%8C%E5%AD%A6%E6%82%A8%E5%A5%BD%EF%BC%8C%0A%0A" class="btn">发送邮件</a>
 <a href="https://www.researchgate.net/profile/Minhui-Ye" class="btn">ResearchGate</a>
 
 </div>

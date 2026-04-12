@@ -12,6 +12,15 @@ I am a graduate student at [Guangdong University of Technology](https://www.gdut
 
 My research focuses on **planetary drilling robotics**, spanning mechanism design, real-time embedded control, motion planning, and deep learning. I led the development of a **9-DOF multi-rod drilling robot** for deep regolith sampling, and delivered a **&minus;190&nbsp;&deg;C vacuum temperature monitoring system** for a leading aerospace institute.
 
+<div style="clear:both;"></div>
+
+<div class="intent-box">
+  <p class="intent-label">Seeking Opportunities &middot; Available July 2026</p>
+  <p class="intent-text"><strong>Aerospace & Special Equipment</strong> &mdash; Spacecraft mechanisms, space robotics, extreme-environment instrumentation</p>
+  <p class="intent-text"><strong>Industrial Automation & Motion Control</strong> &mdash; Servo drives, fieldbus communication, multi-axis systems, non-standard production lines</p>
+  <p class="intent-text"><strong>Robotics & Embodied Intelligence</strong> &mdash; System integration, hardware-software co-development, control algorithms</p>
+</div>
+
 <div class="stats-row" markdown="1">
 
 <div class="stat-item" markdown="1">
@@ -68,12 +77,14 @@ My research focuses on **planetary drilling robotics**, spanning mechanism desig
 
 ## News
 
-- **2025** &mdash; Completed R&D internship at [Beijing Institute of Satellite Manufacturing (Factory 529)](http://www.spacechina.com/), working on space drilling and cryogenic instrumentation
-- **2025** &mdash; Awarded the **National Scholarship** for graduate students &mdash; the highest honor for Chinese graduate students (top 0.2% university-wide)
-- **2025** &mdash; Won **First Prize** at the [China Graduate Electronics Design Competition](https://cpipc.acge.org.cn/) (South China division), serving as team lead
-- **2025.01** &mdash; Journal paper on multi-rod drilling robot accepted by [*Advances in Space Research*](https://www.sciencedirect.com/journal/advances-in-space-research) (SCI Q2)
-- **2024** &mdash; Review paper on seafloor sampling robots published in [*Journal of Field Robotics*](https://onlinelibrary.wiley.com/journal/15564967) (SCI Q2)
-- **2024.08** &mdash; Presented control system design work at [IEEE ICIEA 2024](https://www.ieeeiciea.org/) in Kristiansand, Norway
+<div class="news-list">
+<div class="news-item"><span class="news-date">2025</span><span class="news-text">Completed R&D internship at <a href="http://www.spacechina.com/">Beijing Institute of Satellite Manufacturing (Factory 529)</a>, working on space drilling and cryogenic instrumentation</span></div>
+<div class="news-item"><span class="news-date">2025</span><span class="news-text">Awarded the <strong>National Scholarship</strong> for graduate students &mdash; the highest honor for Chinese graduate students (top 0.2%)</span></div>
+<div class="news-item"><span class="news-date">2025</span><span class="news-text">Won <strong>First Prize</strong> at the <a href="https://cpipc.acge.org.cn/">China Graduate Electronics Design Competition</a> (South China), serving as team lead</span></div>
+<div class="news-item"><span class="news-date">2025.01</span><span class="news-text">Journal paper on multi-rod drilling robot accepted by <a href="https://www.sciencedirect.com/journal/advances-in-space-research"><em>Advances in Space Research</em></a> (SCI Q2)</span></div>
+<div class="news-item"><span class="news-date">2024</span><span class="news-text">Review paper on seafloor sampling robots published in <a href="https://onlinelibrary.wiley.com/journal/15564967"><em>Journal of Field Robotics</em></a> (SCI Q2)</span></div>
+<div class="news-item"><span class="news-date">2024.08</span><span class="news-text">Presented control system design work at <a href="https://www.ieeeiciea.org/">IEEE ICIEA 2024</a> in Kristiansand, Norway</span></div>
+</div>
 
 ---
 
@@ -99,20 +110,24 @@ My research focuses on **planetary drilling robotics**, spanning mechanism desig
 
 ## Research Interests
 
-- **Planetary Drilling Robotics** &mdash; Multi-rod deep sampling, motion sequence optimization, soil-tool interaction
-- **Robot Control & Communication** &mdash; EtherCAT / Modbus real-time architectures, FSM-based process control
-- **Deep Learning for Robotics** &mdash; Physics-guided time-series classification, cross-domain transfer learning
-- **Thermal Modeling** &mdash; Coupled thermal-structural simulation for extreme environments
+<div class="news-list">
+<div class="news-item"><span class="news-date" style="min-width:6em;">Drilling Robotics</span><span class="news-text">Multi-rod deep sampling, motion sequence optimization, soil-tool interaction</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">Control</span><span class="news-text">EtherCAT / Modbus real-time architectures, FSM-based process control</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">Deep Learning</span><span class="news-text">Physics-guided time-series classification, cross-domain transfer learning</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">Thermal</span><span class="news-text">Coupled thermal-structural simulation for extreme environments</span></div>
+</div>
 
 ---
 
 ## Technical Skills
 
-- **Algorithms & AI** &mdash; PyTorch, deep learning, constraint programming ([OR-Tools](https://developers.google.com/optimization) / CP-SAT), combinatorial optimization, Optuna
-- **Software** &mdash; Qt / C++ HMI, Python, MATLAB, Modbus / EtherCAT / TCP, RTOS, SQLite
-- **Hardware** &mdash; STM32, PCB design ([LCEDA](https://lceda.cn/)), I2C / UART / SPI / RS-485 / CAN, FOC motor control
-- **Mechanical** &mdash; [SolidWorks](https://www.solidworks.com/) (incl. Simulation), AutoCAD, motor & component selection
-- **Dev Tools** &mdash; [Claude Code](https://claude.ai/), [Cursor](https://cursor.sh/), LaTeX, Git, Illustrator
+<div class="news-list">
+<div class="news-item"><span class="news-date" style="min-width:6em;">Algorithms</span><span class="news-text">PyTorch, deep learning, constraint programming (<a href="https://developers.google.com/optimization">OR-Tools</a> / CP-SAT), Optuna</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">Software</span><span class="news-text">Qt / C++ HMI, Python, MATLAB, Modbus / EtherCAT / TCP, RTOS, SQLite</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">Hardware</span><span class="news-text">STM32, PCB design (<a href="https://lceda.cn/">LCEDA</a>), I2C / UART / SPI / RS-485 / CAN, FOC motor control</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">Mechanical</span><span class="news-text"><a href="https://www.solidworks.com/">SolidWorks</a> (incl. Simulation), AutoCAD, motor & component selection</span></div>
+<div class="news-item"><span class="news-date" style="min-width:6em;">Dev Tools</span><span class="news-text"><a href="https://claude.ai/">Claude Code</a>, <a href="https://cursor.sh/">Cursor</a>, LaTeX, Git, Illustrator</span></div>
+</div>
 
 ---
 
@@ -122,7 +137,7 @@ My research focuses on **planetary drilling robotics**, spanning mechanism desig
 
 I am open to research collaboration, engineering opportunities, and conversations about robotics, space exploration, or anything in between.
 
-<a href="mailto:ye_minhui@foxmail.com" class="btn">Email Me</a>
+<a href="mailto:ye_minhui@foxmail.com?subject=Hi%20Minhui%20%E2%80%94%20Found%20your%20portfolio&body=Hi%20Minhui%2C%0A%0A" class="btn">Email Me</a>
 <a href="https://www.researchgate.net/profile/Minhui-Ye" class="btn">ResearchGate</a>
 
 </div>
