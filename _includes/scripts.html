@@ -7,6 +7,26 @@
   'use strict';
 
   /* ============================================================
+     0. DARK MODE — auto-detect + manual toggle + localStorage
+     ============================================================ */
+  (function() {
+    var stored = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme = stored || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+
+    var btn = document.getElementById('themeToggle');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+    }
+  })();
+
+  /* ============================================================
      1. STICKY NAV — shrink on scroll
      ============================================================ */
   var nav = document.querySelector('.navigation-wrapper');

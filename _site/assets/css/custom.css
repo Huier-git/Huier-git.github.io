@@ -35,6 +35,109 @@
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* ── DARK MODE ──────────────────────────────────────────── */
+[data-theme="dark"] {
+  --ink: #f0ece7;
+  --body: #c8c2ba;
+  --secondary: #9a9490;
+  --muted: #706b66;
+  --border: #2e2b28;
+  --border-light: #252220;
+  --surface: #1e1b18;
+  --bg: #171411;
+  --page-bg: #0f0d0b;
+
+  --accent: #d4956e;
+  --accent-hover: #e0a880;
+  --accent-subtle: rgba(212, 149, 110, 0.08);
+  --accent-border: rgba(212, 149, 110, 0.2);
+
+  --shadow-card: 0 2px 20px rgba(0,0,0,0.2), 0 0px 60px rgba(0,0,0,0.1);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+  --shadow-md: 0 4px 14px rgba(0,0,0,0.25);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Dark mode nav frosted glass */
+[data-theme="dark"] .navigation-wrapper {
+  background: rgba(15, 13, 11, 0.85);
+}
+[data-theme="dark"] .navigation-wrapper.scrolled {
+  background: rgba(15, 13, 11, 0.95);
+}
+
+/* Dark mode sidebar */
+[data-theme="dark"] .sidebar {
+  background: var(--bg);
+  border-right-color: var(--border);
+}
+
+/* Dark mode intent box */
+[data-theme="dark"] .intent-box {
+  border-color: rgba(212, 149, 110, 0.15);
+  background: rgba(212, 149, 110, 0.05);
+}
+
+/* Dark mode like button */
+[data-theme="dark"] .like-btn {
+  background: var(--surface);
+  border-color: var(--border);
+  color: var(--secondary);
+}
+
+/* Dark mode sidebar status badge */
+[data-theme="dark"] .sidebar-status {
+  color: #6abf7b !important;
+  background: rgba(106, 191, 123, 0.1) !important;
+  border-color: rgba(106, 191, 123, 0.2) !important;
+}
+
+/* Dark mode images - subtle brightness reduction */
+[data-theme="dark"] .article-wrap center img,
+[data-theme="dark"] .article-wrap .img-row img,
+[data-theme="dark"] img.floatpic,
+[data-theme="dark"] .bio-photo {
+  filter: brightness(0.92);
+}
+
+/* Dark mode footer */
+[data-theme="dark"] .footer-wrap {
+  background: transparent !important;
+}
+
+/* Dark mode back-to-top */
+[data-theme="dark"] .back-to-top {
+  background: rgba(30, 27, 24, 0.9);
+  border-color: var(--border);
+}
+
+/* ── THEME TOGGLE BUTTON ───────────────────────────────── */
+.theme-toggle {
+  display: inline-flex !important;
+  align-items: center;
+  margin-right: 0 !important;
+}
+
+.theme-toggle button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: var(--secondary);
+  transition: color 0.25s ease;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle button:hover {
+  color: var(--accent);
+}
+
+/* Show/hide sun/moon icons based on theme */
+.icon-moon { display: none; }
+[data-theme="dark"] .icon-sun { display: none; }
+[data-theme="dark"] .icon-moon { display: block; }
+
 /* ── RESET & GLOBAL ────────────────────────────────────── */
 html {
   font-size: 106.25% !important; /* 17px base */

@@ -5,6 +5,9 @@
 {% include head.html %}
 </head>
 
+<script>
+(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);})();
+</script>
 <body class="page" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
