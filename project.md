@@ -78,9 +78,11 @@ Commissioned by Beijing Institute of Satellite Manufacturing (Factory 529). Deli
 
 #### [Compact EtherCAT Servo Drive](#)
 
-<center>
+<div class="img-row">
 <img src="/images/projects/motor-driver.png" alt="Compact EtherCAT servo drive PCB">
-</center>
+<img src="/images/projects/motor-driver-assembled.png" alt="Assembled servo drive with EtherCAT module">
+</div>
+<p class="img-caption">Left: PCB layout with three-phase inverter &nbsp;&middot;&nbsp; Right: Assembled unit with EtherCAT module</p>
 
 A compact, high-performance servo drive for brushless motors, designed to serve as the actuator controller in the multi-rod drilling robot system. Implements field-oriented control (FOC) with EtherCAT real-time communication for multi-axis coordination.
 
