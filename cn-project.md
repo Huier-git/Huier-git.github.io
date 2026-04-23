@@ -28,6 +28,7 @@ lang: zh
 2. **运动规划** &mdash; 将钻杆协同作业建模为RCPSP问题，使用 Petri 网 + MILP + CP-SAT 求解多根钻管全局最优排序（提升 &ge;4.9%）
 3. **力学建模** &mdash; 提出多分量耦合机土力学模型（Janssen + Terzaghi + PFRT + Coulomb），实验验证预测偏差 &plusmn;18%，解决跨重力难题
 4. **深度学习** &mdash; 构建物理引导的深度学习分类模型，引入物理先验力比特征，跨域迁移识别准确率 F1&nbsp;=&nbsp;0.736（对比基线 +16.7pp）
+5. **虚拟仿真** &mdash; 基于 Unity 构建 9 自由度整机数字孪生平台，将 Petri 网 / RCPSP 调度器以 task 级映射到脚本化作业序列（Stage A 首根对接 / Stage B 加杆循环），支持调度算法无风险验证与操作培训
 
 <div class="img-row">
 <img src="/images/projects/multi-rod-architecture.png" alt="EtherCAT + Modbus 双总线控制架构">
@@ -35,9 +36,14 @@ lang: zh
 </div>
 <p class="img-caption">左：双总线测控系统架构 &nbsp;&middot;&nbsp; 右：PRFINet 深度学习模型</p>
 
-**技术栈** &mdash; `EtherCAT` `Modbus` `Qt / C++` `PyTorch` [`OR-Tools`](https://developers.google.com/optimization) `Petri Net` `SQLite` `Optuna`
+<center>
+<img src="/images/projects/multi-rod-unity-sim.png" alt="Unity 虚拟样机 — 钻进与备杆并发执行序列">
+</center>
+<p class="img-caption">虚拟样机在仿真中钻进与备杆并发执行</p>
 
-**成果** &mdash; 样机1台、发明专利2项（授权1）、软著1项、ICIEA会议论文1篇、SCI论文2篇
+**技术栈** &mdash; `EtherCAT` `Modbus` `Qt / C++` `PyTorch` [`OR-Tools`](https://developers.google.com/optimization) `Petri Net` `SQLite` `Optuna` `Unity` `C#`
+
+**成果** &mdash; 实物样机1台、Unity 虚拟样机1套、发明专利2项（授权1）、软著1项、ICIEA会议论文1篇、SCI论文2篇
 
 <br>
 
