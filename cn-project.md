@@ -28,7 +28,7 @@ lang: zh
 2. **运动规划** &mdash; 将钻杆协同作业建模为RCPSP问题，使用 Petri 网 + MILP + CP-SAT 求解多根钻管全局最优排序（提升 &ge;4.9%）
 3. **力学建模** &mdash; 提出多分量耦合机土力学模型（Janssen + Terzaghi + PFRT + Coulomb），实验验证预测偏差 &plusmn;18%，解决跨重力难题
 4. **深度学习** &mdash; 构建物理引导的深度学习分类模型，引入物理先验力比特征，跨域迁移识别准确率 F1&nbsp;=&nbsp;0.736（对比基线 +16.7pp）
-5. **虚拟仿真** &mdash; 基于 Unity 构建 9 自由度整机数字孪生平台，将 Petri 网 / RCPSP 调度器以 task 级映射到脚本化作业序列（Stage A 首根对接 / Stage B 加杆循环），支持调度算法无风险验证与操作培训
+5. **虚拟仿真** &mdash; 基于 Unity 构建 9 自由度整机数字孪生平台，将 Petri 网 / RCPSP 调度器以 task 级映射到脚本化作业序列，支持调度算法无风险验证与操作培训
 
 <div class="img-row">
 <img src="/images/projects/multi-rod-architecture.png" alt="EtherCAT + Modbus 双总线控制架构">

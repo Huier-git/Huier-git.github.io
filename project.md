@@ -27,7 +27,7 @@ A deep-regolith sampling system for lunar exploration. Independently completed f
 2. **Motion Planning** &mdash; Modeled multi-rod cooperative sequencing as an RCPSP problem; solved via Petri net + MILP + CP-SAT for globally optimal rod scheduling (&ge;4.9% improvement).
 3. **Mechanics Modeling** &mdash; Proposed a multi-component coupled soil-tool interaction model (Janssen + Terzaghi + PFRT + Coulomb); experimentally validated with &plusmn;18% prediction error.
 4. **Deep Learning** &mdash; Built a physics-guided classification model with physical-prior force-ratio features; achieved cross-domain transfer F1&nbsp;=&nbsp;0.736 (+16.7 pp over baseline).
-5. **Virtual Prototype** &mdash; Built a Unity-based integrated simulator of the 9-DOF robot; mapped the Petri-net / RCPSP scheduler to scripted task sequences (Stage A first-rod coupling, Stage B multi-rod addition) for risk-free algorithm validation and operator training.
+5. **Virtual Prototype** &mdash; Built a Unity-based integrated simulator of the 9-DOF robot; mapped the Petri-net / RCPSP scheduler to scripted task sequences for risk-free algorithm validation and operator training.
 
 <div class="img-row">
 <img src="/images/projects/multi-rod-architecture.png" alt="EtherCAT + Modbus dual-bus control architecture">
