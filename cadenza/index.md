@@ -15,7 +15,7 @@ Apple Watch rhythm and habit-training app. 17+. Local-only, no network.
 
 ## Support
 
-For questions or bug reports, please email **mzh1353505539@gmail.com**.
+For questions or bug reports, please email **ye.minhui@outlook.com**.
 Typical response time: 3–5 business days.
 
 If your question is covered by the [Privacy Policy](./privacy-policy)
